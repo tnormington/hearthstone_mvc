@@ -1,0 +1,20 @@
+{
+  "name": "hfjs_ch12",
+  "authors": [
+    "Tim Normington <tim.j.normington@gmail.com>"
+  ],
+  "description": "Head First Javascript Practice",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

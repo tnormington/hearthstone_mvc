@@ -1,0 +1,62 @@
+
+body {
+    background-color: #999;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em -0.5em;
+}
+
+.card-list h2 {
+    flex-basis: 100%;
+}
+
+
+.card {
+    box-shadow: 0 2px 3px rgba(0,0,0,0.35);
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 1em;
+    margin: 0 0.5em 1em;
+    border: 1px solid #999;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 23%;
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+    border-top: 5px solid #fff;
+}
+.card:hover {
+    border-top: 5px solid #4ebaff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+    transform: scale(1.05);
+}
+
+.card span {
+    flex-basis: 100%;
+}
+.card h3.name {
+    margin: 0 0 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #999;
+}
+.card .body {
+    margin-bottom: 1em;
+}
+.card .abilities {
+    margin-top: 1em;
+    display: block;
+    font-weight: 700;
+}
+.card span.damage,
+.card span.health {
+    flex-basis: 50%;
+}
+.card span.health {
+    text-align: right;
+    border-left: 1px solid #999;
+}
